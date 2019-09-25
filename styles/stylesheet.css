@@ -1,0 +1,113 @@
+#pai-Head {
+    width: 100vw;
+    height: 10vh;
+}
+
+#pesq {
+    float: left;
+    margin-left: 40%;
+    margin-top: -8%;
+    border: 1px solid black;
+}
+
+#logo {
+    padding: 1.5%;
+}
+
+#nsei {
+    font-size: 15px;
+    width: 19%;
+    float: right;
+    margin-right: 15%;
+    margin-top: -8%;
+    color: rgb(223, 104, 35);
+}
+
+#menu {
+    border: 1px solid darkslateblue;
+    margin-top: -1%;
+    background-color: darkslateblue;
+    width: 100vw;
+    height: 5vh;
+}
+
+.nav-menu {
+    display: block;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 11%;
+}
+
+nav ul ul {
+    /*  dentro da nav acessa a primeira lista e dentro da primeira lista
+    dentro da primeira lista acessa a segunda e aplica display none*/
+    display: none;
+}
+
+nav ul ul li {
+    /* acessa a segunda lista e aplica display block 
+    para tirar o ponto de marcação feio*/
+    display: block;
+}
+
+nav ul li:hover>ul {
+    /*  dentro da nav acessa a primeira lista e dentro da primeira lista
+    dentro da primeira lista acessa a segunda e aplica display block*/
+    display: block;
+}
+
+
+/* Ajustes responsivos com @media: 
+máximo = não vai ultrapassar esse tamanho independente do conteúdo
+minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
+*/
+
+@media(min-width:947px) {
+    #pesq {
+        margin-left: 35%;
+        margin-top: -8%;
+    }
+}
+
+@media(min-width:1132px) {
+    #pesq {
+        margin-left: 35%;
+        margin-top: -7%;
+    }
+}
+
+@media(min-width:1465px) {
+    #pesq {
+        margin-left: 35%;
+        margin-top: -6%;
+    }
+}
+
+@media(min-width:1634px) {
+    #pesq {
+        margin-left: 35%;
+        margin-top: -5%;
+    }
+}
+
+
+/* Aqui termina o cabeçario*/
+
+#potion {
+    width: 100vw;
+    height: 3%;
+    float: left;
+}
+
+
+/* @media do conteudo do site
+máximo = não vai ultrapassar esse tamanho independente do conteúdo
+minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
+*/
+
+@media(min-width:768px) {
+    #potion {
+        margin-top: 6%;
+    }
+}
