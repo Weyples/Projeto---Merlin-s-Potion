@@ -29,7 +29,7 @@
     margin-top: -1%;
     background-color: darkslateblue;
     width: 100vw;
-    height: 5vh;
+    height: 7vh;
 }
 
 .nav-menu {
@@ -64,6 +64,12 @@ máximo = não vai ultrapassar esse tamanho independente do conteúdo
 minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 */
 
+@media(min-width:778px) {
+    #pesq {
+        margin-left: 40%;
+    }
+}
+
 @media(min-width:947px) {
     #pesq {
         margin-left: 35%;
@@ -73,8 +79,11 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 
 @media(min-width:1132px) {
     #pesq {
-        margin-left: 35%;
+        margin-left: 37%;
         margin-top: -7%;
+    }
+    #nsei {
+        margin-top: -6%;
     }
 }
 
@@ -97,7 +106,7 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 
 #potion {
     width: 90vw;
-    height: 3%;
+    height: auto;
     float: left;
 }
 
@@ -111,23 +120,32 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
     #potion {
         margin-top: 2%;
     }
+    .produtos {
+        width: 30%;
+        margin: 0% 3.33%;
+    }
 }
 
 #conteudo {
     width: 95vw;
-    height: 75vh;
-    margin-top: 10%;
+    height: auto;
+    margin-top: 12%;
+    border: 1px solid black;
 }
 
-.row {
+.row1,
+.row2 {
     display: flex;
-    width: 100%
+    width: 100%;
+    font-size: 14px;
 }
 
 .produtos {
-    width: 30%;
-    border: 1px solid black;
-    margin: 0% 3.33%;
+    width: 23%;
+    margin: -2% 3.33% 1%;
+    text-align: center;
+    /* Quando se usa um valor na margin todos os lados receberam aquele valor, se vc colocar 2 valores o primeiro sera cima e baixo e o outro os lados
+    margem superior terá valor1 - margem direita e esquerda terão valor2 - margem inferior terá valor3 */
 }
 
 .produtos img {

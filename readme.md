@@ -1,7 +1,5 @@
-Implementação do menu responsivo, porém 
-falta algumas imagens então não está completo.
-verificar também a barra de pesquisa pois apesar de 
-estar responsiva não e a pedida!
-O menu possui uma sub-lista nos campos:
-poções, ingredientes, livros, suprimentos e charmes.
-apesar de ter a sub lista, não está linkado em nada.
+Para rodar esse site, necessita um navegador de internet no seu desktop , e abrir o arquivo index.html que fica dentro da pasta do projeto.
+
+O site não possui versão mobile então não está totalmente responsivo!
+
+Você pode usar essa aplicação para consultar o valor de alguns itens da loja.
