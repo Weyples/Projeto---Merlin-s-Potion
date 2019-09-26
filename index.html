@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Merlin's Potion</title>
     <link rel="stylesheet" href="/styles/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
     <header>
         <div id="pai-Head">
             <div id="logo-pesq"> <img id="logo" src="imagens/logo.jpg" alt="Logo da imagem"></div>
-            <div> <input id="pesq" type="text" name="buscar" placeholder="Search our Stock" size="20" maxlength="20">
+            <div> <input id="pesq" type="search" name="buscar" placeholder="Search our Stock" size="20" maxlength="20">
             </div>
-            <div id="nsei">Free shipping <br>on orders over $50</div>
+            <div class="nsei">Free shipping <br>on orders over $50</div>
 
             <nav class="navegacao">
                 <div id="menu">
@@ -65,39 +67,65 @@
 
         <div class="row1">
             <div id="produto1" class="produtos">
-                <img src="/imagens/products/aging-potion.png" alt="Aging Potion..." />
-                <b>Aging Potion</b> - $29,99
+                <a href="">
+                    <img src="/imagens/products/aging-potion.png" alt="Aging Potion..." />
+                    <b>Aging Potion</b> - $29,99 </a>
             </div>
 
             <div id="produto2" class="produtos">
-                <img src="/imagens/products/bulgeye-potion.png" alt="Bulgeye Potion..." />
-                <b>Bulgeye Potion</b> - $19,99
+                <a href="">
+                    <img src="/imagens/products/bulgeye-potion.png" alt="Bulgeye Potion..." />
+                    <b>Bulgeye Potion</b> - $19,99 </a>
                 </b>
             </div>
 
             <div id="produto3" class="produtos">
-                <img src="/imagens/products/dragon-tonic.png" alt="Dragon Tonic..." />
-                <b>Dragon Tonic</b> - $64,90
+                <a href="">
+                    <img src="/imagens/products/dragon-tonic.png" alt="Dragon Tonic..." />
+                    <b>Dragon Tonic</b> - $64,90 </a>
             </div>
         </div>
         <br>
 
         <div class="row2">
-            <div id="produto4" class="produtos"> <img src="imagens/products/love-potion.png" alt="Love Potion..." />
-                <b>Love Potion</b> - $29,99
+            <div id="produto4" class="produtos">
+                <a href=""> <img src="imagens/products/love-potion.png" alt="Love Potion..." />
+                    <b>Love Potion</b> - $29,99</a>
             </div>
 
-            <div id="produto5" class="produtos"> <img src="imagens/products/polyjuice-potion.png" alt="Polyjuice Potion..." />
-                <b>Polyjuice Potion</b> - $99,99
+            <div id="produto5" class="produtos">
+                <a href=""> <img src="imagens/products/polyjuice-potion.png" alt="Polyjuice Potion..." />
+                    <b>Polyjuice Potion</b> - $99,99 </a>
             </div>
 
-            <div id="produto6" class="produtos"> <img src="imagens/products/sleeping-draught.png" alt="Sleeping Draught" />
-                <b>Sleeping Draught</b> - $14,99
+            <div id="produto6" class="produtos">
+                <a href=""><img src="imagens/products/sleeping-draught.png" alt="Sleeping Draught" />
+                    <b>Sleeping Draught</b> - $14,99 </a>
             </div>
         </div>
 
-
     </div>
+
+    <div id="comidas-geral">
+        <div class="nsei" id="end-pag">
+            <footer>
+                <ul>
+                    <li class="nsei">COMPANY RETURNS</li>
+                    <li class="nsei">CONTACT US CAREERS</li>
+                    <li class="nsei">SHIPPING</li>
+                </ul>
+            </footer>
+        </div>
+
+        <div id="comida-japonesa">
+            <div id="rot-holl"><span>Sign up for our Newslever</span>
+                <br> sing up for newslatter. A get exclusive discounts!
+                <br>
+                <input type="email" name="email" placeholder="Enter for email"> <input type="submit" value="SUBMIT">
+            </div>
+        </div>
+    </div>
+
 
 </body>
 

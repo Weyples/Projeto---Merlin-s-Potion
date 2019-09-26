@@ -15,7 +15,7 @@
     padding: 1.5%;
 }
 
-#nsei {
+.nsei {
     font-size: 15px;
     width: 15%;
     float: right;
@@ -64,37 +64,37 @@ máximo = não vai ultrapassar esse tamanho independente do conteúdo
 minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 */
 
-@media(min-width:778px) {
+@media screen and (min-width:778px) {
     #pesq {
         margin-left: 40%;
     }
 }
 
-@media(min-width:947px) {
+@media screen and (min-width:947px) {
     #pesq {
         margin-left: 35%;
         margin-top: -8%;
     }
 }
 
-@media(min-width:1132px) {
+@media screen and (min-width:1132px) {
     #pesq {
         margin-left: 37%;
         margin-top: -7%;
     }
-    #nsei {
+    .nsei {
         margin-top: -6%;
     }
 }
 
-@media(min-width:1465px) {
+@media screen and (min-width:1465px) {
     #pesq {
         margin-left: 35%;
         margin-top: -6%;
     }
 }
 
-@media(min-width:1634px) {
+@media screen and (min-width:1634px) {
     #pesq {
         margin-left: 35%;
         margin-top: -5%;
@@ -116,7 +116,7 @@ máximo = não vai ultrapassar esse tamanho independente do conteúdo
 minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 */
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     #potion {
         margin-top: 2%;
     }
@@ -130,7 +130,6 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
     width: 95vw;
     height: auto;
     margin-top: 12%;
-    border: 1px solid black;
 }
 
 .row1,
@@ -142,7 +141,7 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
 
 .produtos {
     width: 23%;
-    margin: -2% 3.33% 1%;
+    margin: -2% 3.33% 2%;
     text-align: center;
     /* Quando se usa um valor na margin todos os lados receberam aquele valor, se vc colocar 2 valores o primeiro sera cima e baixo e o outro os lados
     margem superior terá valor1 - margem direita e esquerda terão valor2 - margem inferior terá valor3 */
@@ -153,8 +152,93 @@ minimo = não pode ser menor que isso, mesmo que não haja conteúdo algum
     height: auto;
 }
 
-@media(min-width:1450px) {
+@media screen and (min-width:1450px) {
     .produtos {
         height: 28%;
+    }
+}
+
+#end-pag {
+    width: 50vw;
+    height: 10vh;
+    margin-top: 5%;
+    float: left;
+    background-color: #E5E5E5;
+    font-size: 13px;
+}
+
+#end-pag ul li {
+    margin-top: -3%;
+    float: left;
+    width: 17%;
+    display: block;
+}
+
+#comida-japonesa {
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 10vh;
+    float: right;
+    margin-top: -13.5%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#rot-holl {
+    margin: 4%;
+    background-color: white;
+}
+
+#rs {
+    width: 2vw;
+    height: 2vh;
+}
+
+#comidas-geral {
+    width: 99vw;
+}
+
+@media screen and (min-width:878px) {
+    #comida-japonesa {
+        margin-top: -12%;
+    }
+}
+
+@media screen and (min-width:1006px) {
+    #comida-japonesa {
+        margin-top: -10%;
+    }
+    #end-pag ul li {
+        margin-top: -1%;
+    }
+}
+
+@media screen and (min-width: 1198px) {
+    #comida-japonesa {
+        margin-top: -8%;
+    }
+    #end-pag ul li {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    #comida-japonesa {
+        margin-top: -6%
+    }
+    #end-pag ul li {
+        margin-top: 1%;
+    }
+}
+
+@media screen and (min-width:2170px) {
+    #comida-japonesa {
+        margin-top: -4%;
+    }
+}
+
+@media screen and (min-width:2500px) {
+    #comida-japonesa {
+        margin-top: -2%;
     }
 }
